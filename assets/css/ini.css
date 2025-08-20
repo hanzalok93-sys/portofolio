@@ -1,0 +1,91 @@
+.header {
+    padding: 30px 50px;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(239, 244, 244);
+}
+
+.hero {
+    display: flex;
+    padding: 100px 50x;
+    gap: 40px;
+    
+    
+}
+.hero-picture img{
+    border-radius: 100%;
+    width: 225px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.hero {
+   font-size: 25px;
+    background-color: bisque;
+    
+}
+.about{
+    margin: 55px;
+    background-color: rgb(242, 242, 129);
+    padding: 20px;
+    border-radius:50px;
+}
+.about h3{
+    margin-top: 0;
+}
+.about p{
+    margin-bottom: 0;
+}
+.data-diri {
+    margin: 55px;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 50px;
+    
+    
+}
+.data-diri ul {
+    line-height: 25px;
+}
+ .data-portovolio {
+    justify-content: space-around;
+    display: flex;
+    background-color: aqua;
+    border-radius: 50px;
+    
+    
+ }
+.riwayat-data{
+
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 3px solid black;
+}
+.riwayat-pendidikan{
+    margin: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 3px solid black;
+}
+ .hero-desc button {
+    background-color: rgb(62, 15, 105);
+    color: rgb(4, 10, 15);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+
+
+ }
+ /*untuk reponsive di hp*/
+ @media screen and (max-width:900px ) {
+    .hero{
+        display: block;
+        text-align: center;
+    }
+ }
